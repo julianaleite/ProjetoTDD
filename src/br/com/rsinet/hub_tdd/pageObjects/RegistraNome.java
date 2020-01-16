@@ -89,4 +89,9 @@ public class RegistraNome {
 		element = driver.findElement(By.id("register_btnundefined"));
 		return element;
 	}
+
+	public static WebElement falharegistro(WebDriver driver) {
+		element = driver.findElement(By.className("center block smollMargin invalid"));
+		return element;
+	}
 }
