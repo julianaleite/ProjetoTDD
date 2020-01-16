@@ -19,8 +19,14 @@ public class TestPesquisa {
 
 		return pesquisaElement;
 	}
- public static WebElement produtoElement (WebDriver driver) {
-	 pesquisaElement = driver.findElement(By.className("imgProduct"));
-	 return pesquisaElement;
-	 }
+
+	public static WebElement produtoElement(WebDriver driver) {
+		pesquisaElement = driver.findElement(By.className("imgProduct"));
+		return pesquisaElement;
+	}
+
+	public static WebElement cliqueProdutoEscolhido(WebDriver driver) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
