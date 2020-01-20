@@ -25,8 +25,13 @@ public class TestPesquisa {
 		return pesquisaElement;
 	}
 
+	public static WebElement fecharPesquisa(WebDriver driver) {
+		pesquisaElement = driver.findElement(By.xpath("//*[@id=\"search\"]/div/div"));
+		return pesquisaElement;
+	}
+
 	public static WebElement cliqueProdutoEscolhido(WebDriver driver) {
-		// TODO Auto-generated method stub
-		return null;
+		pesquisaElement = driver.findElement(By.id("11"));
+		return pesquisaElement;
 	}
 }
