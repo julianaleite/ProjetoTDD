@@ -34,4 +34,16 @@ public class TestPesquisa {
 		pesquisaElement = driver.findElement(By.id("11"));
 		return pesquisaElement;
 	}
+
+	public static WebElement escreverErrado(WebDriver driver) {
+		pesquisaElement = driver.findElement(By.id("autoComplete"));
+
+		return pesquisaElement;
+
+	}
+
+	public static WebElement produtonaoExiste(WebDriver driver) {
+		pesquisaElement = driver.findElement(By.className("ng-binding"));
+		return pesquisaElement;
+	}
 }

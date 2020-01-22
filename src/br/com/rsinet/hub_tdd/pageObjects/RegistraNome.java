@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class RegistraNome {
 
-	//private static final String Brazil = null;
+	// private static final String Brazil = null;
 	public static WebElement element;
 
 	public static WebElement registranome(WebDriver driver) {
@@ -90,8 +90,18 @@ public class RegistraNome {
 		return element;
 	}
 
-	public static WebElement falharegistro(WebDriver driver) {
-		element = driver.findElement(By.className("center block smollMargin invalid"));
+	public static WebElement naoCadastrado(WebDriver driver) {
+		element = driver.findElement(By.cssSelector("#registerPage > article > sec-form > div.center > label.center.block.smollMargin"));
 		return element;
+
+//	public static WebElement falharegistro(WebDriver driver) {
+//		element = driver.findElement(By.cssSelector("#registerPage > article > sec-form > div.center > label.center.block.smollMargin"));
+//		return element;
+		// }
+
+//	public static WebElement msg(WebDriver driver) {
+		// element = driver.findElement(By.cssSelector("#registerPage > article >
+	//	sec-form > div.center > label.center.block.smollMargin.invalid"));
+		// return element;
 	}
 }

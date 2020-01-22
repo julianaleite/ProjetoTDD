@@ -10,8 +10,9 @@ import br.com.rsinet.hub_tdd.utility.ExcelUtils;
 
 public class CadastraCliente {
 
-	public static void Execute(WebDriver driver) throws Exception {
+	public static void ValidoTest(WebDriver driver) throws Exception {
 
+		// busca a massa no Excel
 		String username = ExcelUtils.getCellData(1, 0);
 		String Email = ExcelUtils.getCellData(1, 1);
 		String senha = ExcelUtils.getCellData(1, 2);
@@ -24,6 +25,8 @@ public class CadastraCliente {
 		String Endereço = ExcelUtils.getCellData(1, 9);
 		String Estado = ExcelUtils.getCellData(1, 10);
 		String Codigo = ExcelUtils.getCellData(1, 11);
+
+		// Busca os metodos e execulta comando com as informaçoes do Excel.
 
 		PaginaInicial.clickElement(driver).click();
 		PaginaLogin.criarConta(driver).sendKeys(Keys.ENTER);
@@ -43,6 +46,27 @@ public class CadastraCliente {
 		RegistraNome.concordoElement(driver).click();
 		RegistraNome.registrarElement(driver).click();
 
+	}
+
+	public static void InvalidoTest(WebDriver driver) {
+
+		PaginaInicial.clickElement(driver).click();
+		PaginaLogin.criarConta(driver).sendKeys(Keys.ENTER);
+		RegistraNome.registranome(driver).sendKeys("Juliana");
+		RegistraNome.digitarEmail(driver).sendKeys("juliana.silva@rsinet.com.br");
+		RegistraNome.passwordElement(driver).sendKeys("1415Ju");
+		RegistraNome.ConfirmaSenha(driver).sendKeys("1415Ju");
+		RegistraNome.firstName(driver).sendKeys("Juliana");
+		RegistraNome.lastName(driver).sendKeys("Silva");
+		RegistraNome.phoneNumber(driver).sendKeys("987654321");
+		RegistraNome.paisElement(driver).selectByVisibleText("Brazil");
+		RegistraNome.cidadeElement(driver).sendKeys("Barueri");
+		RegistraNome.endereçoElement(driver).sendKeys("Rua Mar Vermelho");
+		RegistraNome.estadoElement(driver).sendKeys("SP");
+		RegistraNome.cogigoPostal(driver).sendKeys("123456");
+		RegistraNome.cliquElement(driver).click();
+		RegistraNome.concordoElement(driver).click();
+		RegistraNome.registrarElement(driver).click();
 	}
 
 }
