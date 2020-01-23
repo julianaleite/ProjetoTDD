@@ -10,6 +10,7 @@ public class TestMassaTelaPrincipal {
 
 		MetodosTelaPrincipal.clickMice(driver).click();
 		MetodosTelaPrincipal.escolhaMause(driver).click();
+	
 
 	}
 
@@ -20,11 +21,13 @@ public class TestMassaTelaPrincipal {
 
 		for (int i = 0; i < 20; i++) {
 			MetodosTelaPrincipal.botaoClica(driver).click();
+			MetodosTelaPrincipal.AddCarinho(driver).click();
+			MetodosTelaPrincipal.PopularItems(driver).getText();
 		}
 		{
-			MetodosTelaPrincipal.AddCarinho(driver).click();
+		
+
 		}
 
 	}
-
 }

@@ -90,18 +90,15 @@ public class RegistraNome {
 		return element;
 	}
 
-	public static WebElement naoCadastrado(WebDriver driver) {
-		element = driver.findElement(By.cssSelector("#registerPage > article > sec-form > div.center > label.center.block.smollMargin"));
-		return element;
+	public static String naoCadastrado(WebDriver driver) {
+		element = driver.findElement(By.cssSelector("#registerPage > article > sec-form > div.center > label.center.block.smollMargin.invalid"));
+		return element.getText();
 
-//	public static WebElement falharegistro(WebDriver driver) {
-//		element = driver.findElement(By.cssSelector("#registerPage > article > sec-form > div.center > label.center.block.smollMargin"));
-//		return element;
-		// }
-
-//	public static WebElement msg(WebDriver driver) {
-		// element = driver.findElement(By.cssSelector("#registerPage > article >
-	//	sec-form > div.center > label.center.block.smollMargin.invalid"));
-		// return element;
+	}
+	
+	public static String Nome(WebDriver driver) {
+		element = driver.findElement(By.xpath("//*[@id=\"formCover\"]/div[1]/h3"));
+		return element.getText();
+		
 	}
 }

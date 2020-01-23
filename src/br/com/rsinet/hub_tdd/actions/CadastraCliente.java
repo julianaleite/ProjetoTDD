@@ -48,7 +48,7 @@ public class CadastraCliente {
 
 	}
 
-	public static void InvalidoTest(WebDriver driver) {
+	public static String InvalidoTest(WebDriver driver) {
 
 		PaginaInicial.clickElement(driver).click();
 		PaginaLogin.criarConta(driver).sendKeys(Keys.ENTER);
@@ -67,6 +67,7 @@ public class CadastraCliente {
 		RegistraNome.cliquElement(driver).click();
 		RegistraNome.concordoElement(driver).click();
 		RegistraNome.registrarElement(driver).click();
+		return RegistraNome.Nome(driver);
 	}
 
 }
