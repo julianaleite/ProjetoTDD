@@ -1,5 +1,7 @@
 package br.com.rsinet.hub_tdd.actions;
 
+import java.io.File;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
@@ -32,6 +34,7 @@ public class CadastraCliente {
 		PaginaLogin.criarConta(driver).sendKeys(Keys.ENTER);
 		RegistraNome.registranome(driver).sendKeys(username);
 		RegistraNome.digitarEmail(driver).sendKeys(Email);
+
 		RegistraNome.passwordElement(driver).sendKeys(senha);
 		RegistraNome.ConfirmaSenha(driver).sendKeys(senhaConfirme);
 		RegistraNome.firstName(driver).sendKeys(primeiroNome);
@@ -52,7 +55,7 @@ public class CadastraCliente {
 
 		PaginaInicial.clickElement(driver).click();
 		PaginaLogin.criarConta(driver).sendKeys(Keys.ENTER);
-		RegistraNome.registranome(driver).sendKeys("Juliana");
+		RegistraNome.registranome(driver).sendKeys("Julianasz");
 		RegistraNome.digitarEmail(driver).sendKeys("juliana.silva@rsinet.com.br");
 		RegistraNome.passwordElement(driver).sendKeys("1415Ju");
 		RegistraNome.ConfirmaSenha(driver).sendKeys("1415Ju");
@@ -69,5 +72,9 @@ public class CadastraCliente {
 		RegistraNome.registrarElement(driver).click();
 		return RegistraNome.Nome(driver);
 	}
+
+	// public static void copyFile(File src, File file) {
+
+	// TODO Auto-generated method stub
 
 }

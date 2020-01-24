@@ -40,11 +40,10 @@ public class MetodosTelaPrincipal {
 		PesquisaMassa = driver.findElement(By.xpath("//*[@id=\"productProperties\"]/div[3]/button"));
 		return PesquisaMassa;
 	}
-public static WebElement PopularItems(WebDriver driver) {
-	PesquisaMassa = driver.findElement(By.cssSelector("#productProperties > label"));
-	return PesquisaMassa;
-}
-	
-	
+
+	public static WebElement PopularItems(WebDriver driver) {
+		PesquisaMassa = driver.findElement(By.cssSelector("#productProperties > label"));
+		return PesquisaMassa;
+	}
 
 }

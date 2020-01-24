@@ -7,15 +7,11 @@ import br.com.rsinet.hub_tdd.pageObjects.MetodosTelaPrincipal;
 public class TestMassaTelaPrincipal {
 
 	public static void elementtext(WebDriver driver) {
-
 		MetodosTelaPrincipal.clickMice(driver).click();
 		MetodosTelaPrincipal.escolhaMause(driver).click();
-	
-
 	}
 
 	public static void TestInvalidoPgInicial(WebDriver driver) {
-
 		MetodosTelaPrincipal.clickTablets(driver).click();
 		MetodosTelaPrincipal.escolhaTablets(driver).click();
 
@@ -24,10 +20,12 @@ public class TestMassaTelaPrincipal {
 			MetodosTelaPrincipal.AddCarinho(driver).click();
 			MetodosTelaPrincipal.PopularItems(driver).getText();
 		}
-		{
-		
-
-		}
-
 	}
 }
+	// METODOS TIRAR PRINT ELEMENTEXT
+
+	/*public static void TiraprintPg(WebDriver driver) {
+
+		MetodosTelaPrincipal.escolhaTablets(driver).click();
+		MetodosTelaPrincipal.AddCarinho(driver).click(); */
+

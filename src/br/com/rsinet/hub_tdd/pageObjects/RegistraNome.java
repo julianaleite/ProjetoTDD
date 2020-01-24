@@ -13,7 +13,6 @@ public class RegistraNome {
 	public static WebElement registranome(WebDriver driver) {
 		element = driver.findElement(By.name("usernameRegisterPage"));
 		return element;
-
 	}
 
 	public static WebElement digitarEmail(WebDriver driver) {
@@ -67,7 +66,6 @@ public class RegistraNome {
 	public static WebElement estadoElement(WebDriver driver) {
 		element = driver.findElement(By.name("state_/_province_/_regionRegisterPage"));
 		return element;
-
 	}
 
 	public static WebElement cogigoPostal(WebDriver driver) {
@@ -101,4 +99,15 @@ public class RegistraNome {
 		return element.getText();
 		
 	}
+	
+	// metodos criados para tirar screanchot 
+	
+//	public static WebElement screnshot;
+//	
+//	public static tiraPrintcomeço(WebDriver driver) {
+//		screnshot =  PaginaInicial.clickElement(driver).click();
+//		return screnshot;
+//		
+//		
+//	}
 }

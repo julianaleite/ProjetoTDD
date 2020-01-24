@@ -7,9 +7,6 @@ import org.openqa.selenium.WebElement;
 public class PaginaInicial {
 		private static WebElement element;
 
-//		public PaginaInicial(WebDriver driver) {
-//		}
-// Metodo que Clica o Elemento 
 		public static WebElement clickElement (WebDriver driver) {
 			element = driver.findElement(By.id("menuUser"));
 			return element;

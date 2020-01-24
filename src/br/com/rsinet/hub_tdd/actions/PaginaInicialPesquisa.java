@@ -10,7 +10,6 @@ public class PaginaInicialPesquisa {
 
 	public static void Elementos(WebDriver driver) throws Exception {
 		// Busca os metodos e executa comandos.
-
 		TestPesquisa.pesquisarlupaElement(driver).click();
 		TestPesquisa.escreverElement(driver).clear();
 		TestPesquisa.escreverElement(driver).click();
@@ -19,13 +18,26 @@ public class PaginaInicialPesquisa {
 		executor.executeScript("arguments[0].click();", TestPesquisa.fecharPesquisa(driver));
 		TestPesquisa.cliqueProdutoEscolhido(driver).click();
 	}
+	
+	// metodo para tirar print 
+	public static void TiraPrintElementos(WebDriver driver) {
+		TestPesquisa.escreverElement(driver).sendKeys("Laptops", Keys.ENTER);
+		TestPesquisa.cliqueProdutoEscolhido(driver).click();
+		
+	}
 
 	public static void TestePesquisaInvalida(WebDriver driver) {
-
 		TestPesquisa.pesquisarlupaElement(driver).click();
 		TestPesquisa.escreverElement(driver).clear();
 		TestPesquisa.escreverElement(driver).click();
-		TestPesquisa.escreverElement(driver).sendKeys("Juliana", Keys.ENTER);
-
+		TestPesquisa.escreverElement(driver).sendKeys("IphoneX", Keys.ENTER);
+	}
+	
+	// metodo para tirar print TestePesquisaInvalida
+	public static void TirarPrintTestePesquisa(WebDriver driver) {
+		TestPesquisa.escreverElement(driver).sendKeys("IphoneX", Keys.ENTER);
+		
 	}
 }
+
+

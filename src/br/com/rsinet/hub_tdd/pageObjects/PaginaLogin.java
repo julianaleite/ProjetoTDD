@@ -8,7 +8,6 @@ public class PaginaLogin {
 
 	private static WebElement elementologin;
 	
-
 	public static WebElement criarConta(WebDriver Driver) {
 		elementologin = Driver.findElement(By.linkText("CREATE NEW ACCOUNT"));
 		return elementologin;
