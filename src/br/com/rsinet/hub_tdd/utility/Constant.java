@@ -1,5 +1,7 @@
 package br.com.rsinet.hub_tdd.utility;
 
+
+
 public class Constant {
 
 	public static final String URL = "https://www.advantageonlineshopping.com/#/";

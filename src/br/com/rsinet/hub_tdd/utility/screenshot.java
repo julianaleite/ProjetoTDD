@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 
-import br.com.rsinet.hub_tdd.actions.CadastraCliente;
+import br.com.rsinet.hub_tdd.actions.CadastrarClienteAcaoComandos;
 
 public class screenshot extends DriverFactory {
 	
