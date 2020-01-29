@@ -67,24 +67,24 @@ public class CadastrarClienteAcaoComandos {
 	}
 
 	public static void testeMassaInvalido(WebDriver driver) {
-
+// buscando os metodos e dando os comandos para o teste invalido rodar 
 		HomePageCadastraCliente.clicaNoBotaoUtilizador(driver).click();
 		Log.info("Clicando no botao login");
 		CriarContaNoCadastraCliente.criarContaNoCadastraCliente(driver).sendKeys(Keys.ENTER);
 		Log.info("Criando conta");
-		RegistrarContaDoCadastro.digitaNome(driver).sendKeys("Arthur");
+		RegistrarContaDoCadastro.digitaNome(driver).sendKeys("Heitor");
 		Log.info("Digitando nome do usuario");
-		RegistrarContaDoCadastro.digitaEmail(driver).sendKeys("arthur123@teste.com.br");
+		RegistrarContaDoCadastro.digitaEmail(driver).sendKeys("heitor@teste.com.br");
 		Log.info("Digitando email do usuario");
-		RegistrarContaDoCadastro.digitaSenha(driver).sendKeys("1415Tur");
+		RegistrarContaDoCadastro.digitaSenha(driver).sendKeys("1415He");
 		Log.info("Digitando senha");
-		RegistrarContaDoCadastro.confirmaSenha(driver).sendKeys("1415Tur");
+		RegistrarContaDoCadastro.confirmaSenha(driver).sendKeys("1415He");
 		Log.info("Confirmando senha");
-		RegistrarContaDoCadastro.primeiroNome(driver).sendKeys("Arthur");
+		RegistrarContaDoCadastro.primeiroNome(driver).sendKeys("Heitor");
 		Log.info("Digitando Primeiro nome do usuario");
 		RegistrarContaDoCadastro.segundoNome(driver).sendKeys("Silva");
 		Log.info("Digitando ultimo nome do usuario");
-		RegistrarContaDoCadastro.numeroDeTelefone(driver).sendKeys("987654321");
+		RegistrarContaDoCadastro.numeroDeTelefone(driver).sendKeys("987654322");
 		Log.info("Diditando numero de telefone");
 		RegistrarContaDoCadastro.escolherPais(driver).selectByVisibleText("Brazil");
 		Log.info("Escolhendo o Pais onde reside ");
