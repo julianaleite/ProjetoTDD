@@ -23,11 +23,12 @@ public class ConsultarProdutoTelaPrincipal {
 		Log.info("Escolhendo o Tablets desejado");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 1000);");
-		for (int i = 0; i < 14; i++) {
-			MetodosConsultaProdutoTelaPrincipal.adicionarAoCarinho(driver).click();
+		for (int i = 0; i < 20; i++) {
+			MetodosConsultaProdutoTelaPrincipal.BotaoMaisQuantidadeDeTablets(driver).click();
 			MetodosConsultaProdutoTelaPrincipal.assertPopularItems(driver).getText();
 
 		}
+		MetodosConsultaProdutoTelaPrincipal.adicionarAoCarinho(driver).click();
 		Log.info("Adicionando produto desejado ao carrinho");
 		Log.info(" Metodo do assert, verificando se um nome é igual a ele mesmo");
 	}

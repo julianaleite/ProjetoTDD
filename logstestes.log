@@ -2304,3 +2304,110 @@
 2020-01-29 14:20:46,677 INFO  [Log] X 
 2020-01-29 14:20:46,677 INFO  [Log] X 
 2020-01-29 14:20:46,677 INFO  [Log] X 
+2020-01-29 23:23:47,353 INFO  [Log] Carregando propriedades e url 
+2020-01-29 23:23:47,359 INFO  [Log] **************************************************************************************** 
+2020-01-29 23:23:47,360 INFO  [Log] **************************************************************************************** 
+2020-01-29 23:23:47,360 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Teste Cadastro valido       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-29 23:23:47,360 INFO  [Log] **************************************************************************************** 
+2020-01-29 23:23:47,360 INFO  [Log] **************************************************************************************** 
+2020-01-29 23:23:47,360 INFO  [Log] Iniciando o Teste!!! 
+2020-01-29 23:23:47,384 INFO  [Log] Capturando elemento da pagina inicial 
+2020-01-29 23:23:47,454 INFO  [Log] Clicando no botao login 
+2020-01-29 23:23:47,981 INFO  [Log] Capturando o elemento Criar conta 
+2020-01-29 23:23:48,075 INFO  [Log] Criando conta 
+2020-01-29 23:23:48,307 INFO  [Log] Buscando o Elemento digitar nome 
+2020-01-29 23:23:48,402 INFO  [Log] Digitando nome do usuario 
+2020-01-29 23:23:48,417 INFO  [Log] Capturando o Elemento digitar email 
+2020-01-29 23:23:48,600 INFO  [Log] Digitando email do usuario 
+2020-01-29 23:23:48,613 INFO  [Log] Capturando o elemento digitar senha 
+2020-01-29 23:23:48,711 INFO  [Log] Criando senha 
+2020-01-29 23:23:48,723 INFO  [Log] Capsturando o elemento corfimar senha 
+2020-01-29 23:23:48,814 INFO  [Log] Confirmando senha 
+2020-01-29 23:23:48,844 INFO  [Log] Capturando o elemento primeiro nome 
+2020-01-29 23:23:48,983 INFO  [Log] Digitando Primeiro nome do usuario 
+2020-01-29 23:23:48,997 INFO  [Log] Capturando o elemento segundo nome 
+2020-01-29 23:23:49,106 INFO  [Log] Digitando Segundo nome do usuario 
+2020-01-29 23:23:49,118 INFO  [Log] Capturando o elemento nuemro de telefone 
+2020-01-29 23:23:49,158 INFO  [Log] Diditando numero de telefone 
+2020-01-29 23:23:49,208 INFO  [Log] Capturando o Elemento Pais Brazil 
+2020-01-29 23:23:52,526 INFO  [Log] Escolhendo o Pais onde reside  
+2020-01-29 23:23:52,551 INFO  [Log] Capturando o elemento Digitar cidade 
+2020-01-29 23:23:52,678 INFO  [Log] Digitando cidade 
+2020-01-29 23:23:52,690 INFO  [Log] Capturando o elemento digitar o enedereço 
+2020-01-29 23:23:52,980 INFO  [Log] Digitando o endereço 
+2020-01-29 23:23:52,993 INFO  [Log] Capturando o elemento Digitar estado 
+2020-01-29 23:23:53,100 INFO  [Log] Digitando o Estado onde reside 
+2020-01-29 23:23:53,113 INFO  [Log] Capturando o elemento digitar codigo postal 
+2020-01-29 23:23:53,154 INFO  [Log] Digitando o codigo 
+2020-01-29 23:23:53,170 INFO  [Log] Capturando o elemento Clicar em permiçoes de oferta  
+2020-01-29 23:23:53,250 INFO  [Log] aceitando a opçao de permitir ofertas 
+2020-01-29 23:23:53,269 INFO  [Log]  Capturando o elemento de Aceitar os termos  
+2020-01-29 23:23:53,380 INFO  [Log] Clicando em aceitar termos 
+2020-01-29 23:23:53,395 INFO  [Log] Capturando o elemento registar nome  
+2020-01-29 23:23:53,477 INFO  [Log] Registrando usuario 
+2020-01-29 23:23:53,477 INFO  [Log] teste executado 
+2020-01-29 23:23:54,546 INFO  [Log] Comando de espera 
+2020-01-29 23:23:54,933 INFO  [Log] Print capturado 
+2020-01-29 23:23:54,933 INFO  [Log] Mostrar na tela se o resultado comprado for igual a Personal Details 
+2020-01-29 23:23:54,988 INFO  [Log] Verficando de um nome é igual a ele mesmo 
+2020-01-29 23:23:55,354 INFO  [Log] Tela final capturada 
+2020-01-29 23:23:55,957 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-29 23:23:55,957 INFO  [Log] X 
+2020-01-29 23:23:55,957 INFO  [Log] X 
+2020-01-29 23:23:55,957 INFO  [Log] X 
+2020-01-29 23:23:55,957 INFO  [Log] X 
+2020-01-29 23:24:06,554 INFO  [Log] Carregando propriedades e url 
+2020-01-29 23:24:06,560 INFO  [Log] **************************************************************************************** 
+2020-01-29 23:24:06,560 INFO  [Log] **************************************************************************************** 
+2020-01-29 23:24:06,560 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Teste Cadastro Invalido       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-01-29 23:24:06,560 INFO  [Log] **************************************************************************************** 
+2020-01-29 23:24:06,560 INFO  [Log] **************************************************************************************** 
+2020-01-29 23:24:06,560 INFO  [Log] Iniciando o Teste!!! 
+2020-01-29 23:24:06,573 INFO  [Log] Capturando elemento da pagina inicial 
+2020-01-29 23:24:06,775 INFO  [Log] Clicando no botao login 
+2020-01-29 23:24:07,227 INFO  [Log] Capturando o elemento Criar conta 
+2020-01-29 23:24:08,092 INFO  [Log] Criando conta 
+2020-01-29 23:24:08,106 INFO  [Log] Buscando o Elemento digitar nome 
+2020-01-29 23:24:08,202 INFO  [Log] Digitando nome do usuario 
+2020-01-29 23:24:08,215 INFO  [Log] Capturando o Elemento digitar email 
+2020-01-29 23:24:08,382 INFO  [Log] Digitando email do usuario 
+2020-01-29 23:24:08,393 INFO  [Log] Capturando o elemento digitar senha 
+2020-01-29 23:24:08,484 INFO  [Log] Digitando senha 
+2020-01-29 23:24:08,497 INFO  [Log] Capsturando o elemento corfimar senha 
+2020-01-29 23:24:08,584 INFO  [Log] Confirmando senha 
+2020-01-29 23:24:08,596 INFO  [Log] Capturando o elemento primeiro nome 
+2020-01-29 23:24:08,696 INFO  [Log] Digitando Primeiro nome do usuario 
+2020-01-29 23:24:08,710 INFO  [Log] Capturando o elemento segundo nome 
+2020-01-29 23:24:08,808 INFO  [Log] Digitando ultimo nome do usuario 
+2020-01-29 23:24:08,819 INFO  [Log] Capturando o elemento nuemro de telefone 
+2020-01-29 23:24:08,945 INFO  [Log] Diditando numero de telefone 
+2020-01-29 23:24:08,981 INFO  [Log] Capturando o Elemento Pais Brazil 
+2020-01-29 23:24:12,526 INFO  [Log] Escolhendo o Pais onde reside  
+2020-01-29 23:24:12,540 INFO  [Log] Capturando o elemento Digitar cidade 
+2020-01-29 23:24:12,642 INFO  [Log] Digitando cidade 
+2020-01-29 23:24:12,654 INFO  [Log] Capturando o elemento digitar o enedereço 
+2020-01-29 23:24:12,994 INFO  [Log] Digitando o endereço 
+2020-01-29 23:24:13,007 INFO  [Log] Capturando o elemento Digitar estado 
+2020-01-29 23:24:13,077 INFO  [Log] Digitando o Estado onde reside 
+2020-01-29 23:24:13,103 INFO  [Log] Capturando o elemento digitar codigo postal 
+2020-01-29 23:24:13,233 INFO  [Log] Digitando o codigo 
+2020-01-29 23:24:13,246 INFO  [Log] Capturando o elemento Clicar em permiçoes de oferta  
+2020-01-29 23:24:13,283 INFO  [Log] aceitando a opçao de permitir ofertas 
+2020-01-29 23:24:13,296 INFO  [Log]  Capturando o elemento de Aceitar os termos  
+2020-01-29 23:24:13,379 INFO  [Log] Clicando em aceitar termos 
+2020-01-29 23:24:13,401 INFO  [Log] Capturando o elemento registar nome  
+2020-01-29 23:24:13,477 INFO  [Log] Clicando em registar nome 
+2020-01-29 23:24:13,491 INFO  [Log] Capturando o elemento o usuario ja existe 
+2020-01-29 23:24:13,517 INFO  [Log]  Capturando o Elemento ACCOUNT DETAILS  
+2020-01-29 23:24:13,530 INFO  [Log]  Assert = Verificando se o nome é igual nome ACCOUNT DETAILS  
+2020-01-29 23:24:13,530 INFO  [Log] Teste executado 
+2020-01-29 23:24:14,600 INFO  [Log] Comando de espera 
+2020-01-29 23:24:14,976 INFO  [Log] print capturado 
+2020-01-29 23:24:14,976 INFO  [Log]  Mostrar na tela User name already exists, se o resultado for igual a ele mesmo 
+2020-01-29 23:24:15,005 INFO  [Log] Comparando se um nome é igual a ele mesmo 
+2020-01-29 23:24:15,362 INFO  [Log] Tela final capturada 
+2020-01-29 23:24:15,963 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2020-01-29 23:24:15,963 INFO  [Log] X 
+2020-01-29 23:24:15,964 INFO  [Log] X 
+2020-01-29 23:24:15,964 INFO  [Log] X 
+2020-01-29 23:24:15,964 INFO  [Log] X 
